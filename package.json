@@ -1,0 +1,45 @@
+{
+  "name": "discord-music-experience-bot",
+  "version": "1.0.0",
+  "description": "An immersive Discord bot for music playback and community engagement.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "bot",
+    "node.js"
+  ],
+  "author": "Drix10",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "discord.js": "^latest",
+    "express": "^latest",
+    "mongoose": "^latest",
+    "ffmpeg-static": "^latest",
+    "ytdl-core": "^latest",
+    "axios": "^latest",
+    "dotenv": "^latest",
+    "@discordjs/opus": "^latest",
+    "express-rate-limit": "^latest",
+    "lavadump": "^latest"
+  },
+  "devDependencies": {
+    "nodemon": "^latest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "homepage": "https://github.com/spectra-ai-codegen/discord-music-experience-bot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spectra-ai-codegen/discord-music-experience-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spectra-ai-codegen/discord-music-experience-bot/issues"
+  }
+}
